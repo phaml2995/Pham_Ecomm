@@ -12,7 +12,7 @@ const CollectionsOverview = ({ collections }) => (
 		{
 			collections.map(({id, ...otherCollectionProps}) => (
 				<CollectionPreivew key = {id} {...otherCollectionProps} />
-			))
+			))   
 		}
 	</div>
 
